@@ -155,6 +155,7 @@ export default {
                         this.files.splice(this.files.length - 1, 1)
                     }
                     this.files.push(result.data)
+                    console.log(result.data)
                 }
             })
         },
